@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion, useCycle } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import Memoji2 from "../assets/memoji peace.svg";
-import Memoji from "../assets/memoji turu.svg";
+import Memoji2 from "./assets/memoji peace.svg";
+import Memoji from "./assets/memoji turu.svg";
 
 const Navbar = () => {
   const location = useLocation();
@@ -40,7 +40,7 @@ const Navbar = () => {
   };
 
   return (
-    <motion.div className="p-6 flex justify-center items-center space-x-4" initial={{ y: -700, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1 }}>
+    <motion.div className="p-6 flex justify-center items-center space-x-4 sticky top-0 bg-transparent z-10" initial={{ y: -700, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1 }}>
       <div className="flex justify-between items-center space-x-4 w-full max-w-screen-lg mx-auto">
         <div className="relative rounded-full h-12 w-12 flex items-center justify-center bg-[#F6F6F6] shadow-lg" onClick={showBackButton ? handleBackClick : handleMemojiClick}>
           {showBackButton ? (
@@ -58,8 +58,13 @@ const Navbar = () => {
             />
           )}
           {showNotification && !showBackButton && (
-            <motion.div initial={{ y: "-30px", opacity: 0 }} animate={{ y: "0px", opacity: 1 }} transition={{ duration: 0.3 }} style={{ position: "absolute", bottom: "-30px", width: "100%", textAlign: "center" }}>
-              <span style={{ backgroundColor: "#323235", color: "#E8E8E8", padding: "3px 6px", borderRadius: "25px", fontSize: "14px" }}>Howdy</span>
+            <motion.div
+              initial={{ y: "-35px", opacity: 0 }}
+              animate={{ y: "0px", opacity: 1 }}
+              transition={{ duration: 0.3 }}
+              style={{ position: "absolute", bottom: "-35px", left: "-14%", transform: "translateX(-50%)", textAlign: "center" }}
+            >
+              <span style={{ backgroundColor: "#323235", color: "#E8E8E8", padding: "5px 10px", borderRadius: "20px", fontSize: "14px" }}>Howdy</span>
             </motion.div>
           )}
         </div>
