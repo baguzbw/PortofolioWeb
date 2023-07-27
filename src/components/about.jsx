@@ -90,6 +90,36 @@ const About = () => {
               <FontAwesomeIcon icon={faStar} className="mr-1" color="#707072" />
             </div>
           </div>
+          <div className="flex items-center justify-between mt-4 mb-4">
+            <span className="mr-2 font-semibold">Trello</span>
+            <div className="flex items-center ml-2">
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#707072" />
+            </div>
+          </div>
+          <div className="flex items-center justify-between mt-4 mb-4">
+            <span className="mr-2 font-semibold">Photoshop</span>
+            <div className="flex items-center ml-2">
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#707072" />
+            </div>
+          </div>
+          <div className="flex items-center justify-between mt-4 mb-4">
+            <span className="mr-2 font-semibold">Illustrator</span>
+            <div className="flex items-center ml-2">
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#2562ff" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#707072" />
+              <FontAwesomeIcon icon={faStar} className="mr-1" color="#707072" />
+            </div>
+          </div>
         </section>
 
         <section className="mb-8">
