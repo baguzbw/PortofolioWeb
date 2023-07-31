@@ -8,12 +8,13 @@ const Designer = () => {
   return (
     <>
       <motion.section
-        className="pt-10 sm:pt-20 md:pt-30 lg:pt-40 bg-white text-center"
+        className="pt-10 sm:pt-20 md:pt-30 lg:pt-40 bg-white text-center" loading="eager"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "contain",
+          
         }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -26,7 +27,7 @@ const Designer = () => {
             </h1>
             <h2 className="mb-3 sm:mb-5 md:mb-6 text-sm sm:text-base md:text-lg font-medium font-plus-jakarta text-[#5E5E63] flex justify-center items-center">
               Tinggal di Solo
-              <img src={Indo} alt="Indonesia Flag" width="20" className="ml-2" />
+              <img src={Indo} alt="Indonesia Flag" width="20" className="ml-2" loading="eager" />
             </h2>
             <h2 className="text-sm sm:text-base md:text-lg font-medium font-plus-jakarta text-[#5E5E63] ">Saat ini saya sedang berkuliah, dimana saya fokus belajar pada</h2>
             <h2 className="text-sm sm:text-base md:text-lg font-medium font-plus-jakarta text-[#5E5E63] ">desain UI/UX dan Front-End Developer 👾</h2>
