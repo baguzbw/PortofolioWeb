@@ -2,6 +2,8 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faMapMarkerAlt, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import Bagus from "./assets/fotoku.jpg";
 
 const About = () => {
@@ -42,9 +44,9 @@ const About = () => {
           <p className="font-plus-jakarta text-lg mt-4">
             <span>Januari 2023 - July 2023</span>
             <br />
-            <span className="font-semibold text-[#2562ff]">PROJECT BASED LEARNING INTERNSHIP</span>
+            <span className="font-semibold text-[#2562ff]">PROJECT BASED LEARNING INTERNSHIP - PT.SIMS Life Media </span>
             <br />
-            <span>Front End Developer - PT SIMS Life Media</span>
+            <span>Front End Developer</span>
           </p>
         </section>
         <section className="mb-8 font-plus-jakarta">
@@ -125,7 +127,7 @@ const About = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-plus-jakarta mb-2">Contact</h2>
           <div className="flex flex-col md:flex-row bg-white shadow-md rounded-lg p-6 mt-4">
             <div className="mr-4 mb-4 md:mb-0">
-              <img src={Bagus} alt="Your Name" className="rounded-xl w-64 h-64 mx-auto md:mx-0" loading="lazy" />
+              <LazyLoadImage effect="blur" src={Bagus} alt="Your Name" className="rounded-xl w-64 h-64 mx-auto md:mx-0" loading="lazy" />
             </div>
             <div className="font-plus-jakarta text-lg">
               <p className="mt-12 font-bold">

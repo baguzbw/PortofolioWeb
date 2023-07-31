@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import Hasil from "../assets/login.gif";
 import MasterBuku from "../assets/masterbuku.png";
 
@@ -16,7 +18,7 @@ const Research = () => {
         </p>
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
           <div className="flex flex-col items-center">
-            <img src={MasterBuku} loading="lazy" alt="Gambaran dari Detail Artikel" className="about-cloud-image waterfall w-full h-full" />
+            <LazyLoadImage effect="blur" src={MasterBuku} loading="lazy" alt="Gambaran dari Detail Artikel" className="about-cloud-image waterfall w-full h-full" />
             <h1 className="mt-2 font-plus-jakarta text-sm text-[#707072]">Master untuk menambah & edit Buku.</h1>
           </div>
         </div>
@@ -44,7 +46,7 @@ const Research = () => {
         </div>
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
           <div className="flex flex-col items-center">
-            <img src={Hasil} loading="lazy" alt="Gambaran dari Detail Artikel" className="about-cloud-image mt-10 rounded-xl waterfall w-full h-full" />
+            <LazyLoadImage effect="blur" src={Hasil} loading="lazy" alt="Gambaran dari Detail Artikel" className="about-cloud-image mt-10 rounded-xl waterfall w-full h-full" />
             <h1 className="mt-2 font-plus-jakarta text-sm text-[#707072]">Tampilan Design Login E-Library.</h1>
           </div>
         </div>

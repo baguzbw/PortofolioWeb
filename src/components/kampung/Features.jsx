@@ -1,13 +1,15 @@
 import React from "react";
 import Artikel from "../assets/Artikel.svg";
 import Gallery from "../assets/Gallery.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Features = () => {
   return (
     <div className="flex flex-col items-center about-cloud-container" style={{ backgroundColor: "#F6F6F6", width: "100vw", maxWidth: "100%" }}>
       <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
         <div className="flex flex-col items-center">
-          <img src={Artikel} loading="lazy" alt="Gambaran dari Detail Artikel" className="about-cloud-image waterfall w-full h-full" />
+          <LazyLoadImage effect="blur"  src={Artikel} loading="lazy" alt="Gambaran dari Detail Artikel" className="about-cloud-image waterfall w-full h-full" />
           <h1 className="mt-2 font-plus-jakarta text-sm text-[#707072]">Gambaran dari Detail Artikel.</h1>
         </div>
       </div>
@@ -21,7 +23,7 @@ const Features = () => {
       </div>
       <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
         <div className="flex flex-col items-center">
-          <img src={Gallery} loading="lazy" alt="Produk & Motif Core Kampung Batik." className="about-cloud-image waterfall w-full h-full" />
+          <LazyLoadImage effect="blur"  src={Gallery} loading="lazy" alt="Produk & Motif Core Kampung Batik." className="about-cloud-image waterfall w-full h-full" />
           <h1 className="mt-2 font-plus-jakarta text-sm text-[#707072]">Produk & Motif Core Kampung Batik.</h1>
         </div>
       </div>

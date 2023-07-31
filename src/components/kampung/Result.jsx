@@ -3,6 +3,8 @@ import GithubLogo from "../assets/Github.svg";
 import PDFLogo from "../assets/PDF.svg";
 import Presentasi from "../assets/Presentasi.jpeg";
 import WebsiteLogo from "../assets/Website.svg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Result = () => {
   const redirectToGithub = () => {
@@ -26,18 +28,18 @@ const Result = () => {
         </p>
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
           <div className="flex flex-col items-center">
-            <div className="flex justify-between w-full mb-8 mt-2 font-plus-jakarta">
-              <button onClick={redirectToGithub} className="bg-[#ECEFF1] hover:bg-[#FFFFFF] text-[#5E5E63] font-semibold text-xl py-3 px-6 rounded-xl w-1/3 mx-2 flex items-center justify-center transition duration-500 ease-in-out">
+            <div className="flex flex-col md:flex-row justify-between w-full mb-8 mt-2 font-plus-jakarta">
+              <button onClick={redirectToGithub} className="bg-[#ECEFF1] hover:bg-[#FFFFFF] text-[#5E5E63] font-semibold text-xl py-3 px-6 rounded-xl w-full md:w-1/3 mx-2 my-2 md:my-0 flex items-center justify-center transition duration-500 ease-in-out">
                 <img src={GithubLogo} loading="eager" alt="Github Logo" className="mr-2" /> Github
               </button>
-              <button onClick={redirectToWebsite} className="bg-[#ECEFF1] hover:bg-[#FFFFFF] text-[#5E5E63] font-semibold text-xl py-3 px-6 rounded-xl w-1/3 mx-2 flex items-center justify-center transition duration-500 ease-in-out">
+              <button onClick={redirectToWebsite} className="bg-[#ECEFF1] hover:bg-[#FFFFFF] text-[#5E5E63] font-semibold text-xl py-3 px-6 rounded-xl w-full md:w-1/3 mx-2 my-2 md:my-0 flex items-center justify-center transition duration-500 ease-in-out">
                 <img src={WebsiteLogo} loading="eager" alt="Website Logo" className="mr-2" /> Website
               </button>
-              <button onClick={redirectToDocument} className="bg-[#ECEFF1] hover:bg-[#FFFFFF] text-[#5E5E63] font-semibold text-xl py-3 px-6 rounded-xl w-1/3 mx-2 flex items-center justify-center transition duration-500 ease-in-out">
+              <button onClick={redirectToDocument} className="bg-[#ECEFF1] hover:bg-[#FFFFFF] text-[#5E5E63] font-semibold text-xl py-3 px-6 rounded-xl w-full md:w-1/3 mx-2 my-2 md:my-0 flex items-center justify-center transition duration-500 ease-in-out">
                 <img src={PDFLogo} loading="eager" alt="PDF Logo" className="mr-2" /> Document
               </button>
             </div>
-            <img src={Presentasi} loading="lazy" alt="Project Snapshot" className="about-cloud-image waterfall w-full h-full rounded-xl" />
+            <LazyLoadImage effect="blur" src={Presentasi} loading="lazy" alt="Project Snapshot" className="about-cloud-image waterfall w-full h-full rounded-xl" />
             <h1 className="mt-2 font-plus-jakarta text-sm text-[#707072]">Foto kunjungan setelah presentasi hasil akhir.</h1>
           </div>
         </div>
