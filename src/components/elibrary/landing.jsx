@@ -7,7 +7,7 @@ const Kampung = () => {
   return (
     <div className="flex flex-col items-center px-4 sm:px-8 lg:px-12 xl:px-16">
       <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
-        <img src={Landing} loading="eager" alt="A pic of my dog, Olive." className="w-full h-auto md:max-w-4xl" />
+        <img src={Landing} loading="lazy" className="w-full h-auto md:max-w-4xl" />
       </div>
       <div className="mt-[-110px] flex flex-col md:grid md:grid-cols-2 gap-8 max-w-3xl mx-auto relative">
         <img src={Logo} alt="Company Logo" className="w-12 h-12 mb-[-14px]" />

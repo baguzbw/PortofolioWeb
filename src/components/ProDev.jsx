@@ -12,7 +12,7 @@ const ProjectCard = () => (
     <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#ECEFF1] shadow-md rounded-3xl w-full lg:w-[850px] h-auto lg:h-[380px] mx-auto mt-10 overflow-hidden transition-transform duration-500 ease-in-out transform hover:scale-105">
       <div className="p-4 lg:p-12 flex flex-col justify-center">
         <div className="flex flex-col items-start mb-4">
-          <img src={logo1} alt="Logo" className="w-10 h-10" />
+          <img src={logo1} alt="Logo" className="w-10 h-10" loading="lazy" />
           <h2 className="mt-2 text-4xl font-bold font-plus-jakarta text-center">
             <span className="block w-full py-2 font-plus-jakarta text-transparent bg-clip-text leading-12 bg-gradient-to-r from-[#323235] to-[#5E5E63] lg:inline">Kampung Batik</span>
           </h2>
@@ -31,7 +31,7 @@ const ProjectCard = () => (
         </button>
       </div>
       <div className="relative flex justify-center items-center">
-        <img src={illust1} alt="Illustration" className="object-cover lg:w-full lg:h-full" />
+        <img src={illust1} alt="Illustration" className="object-cover lg:w-full lg:h-full" loading="lazy" />
       </div>
     </div>
 
@@ -39,7 +39,7 @@ const ProjectCard = () => (
     <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#ECEFF1] shadow-md rounded-3xl w-full lg:w-[850px] h-auto lg:h-[380px] mx-auto mt-10 overflow-hidden group transition-transform duration-500 ease-in-out transform hover:scale-105">
       <div className="p-4 lg:p-12 flex flex-col justify-center">
         <div className="flex flex-col items-start mb-4">
-          <img src={logo2} alt="Logo" className="w-10 h-10" />
+          <img src={logo2} alt="Logo" className="w-10 h-10" loading="lazy" />
           <h2 className="mt-2 text-4xl font-bold font-plus-jakarta text-center">
             <span className="block w-full py-2 font-plus-jakarta text-transparent bg-clip-text leading-12 bg-gradient-to-r from-[#323235] to-[#5E5E63] lg:inline">Web Portofolio</span>
           </h2>
@@ -51,7 +51,7 @@ const ProjectCard = () => (
         </button>
       </div>
       <div className="relative flex justify-center items-center">
-        <img src={illust2} alt="Illustration" className="object-cover lg:w-full lg:h-full" />
+        <img src={illust2} alt="Illustration" className="object-cover lg:w-full lg:h-full" loading="lazy" />
       </div>
     </div>
   </div>

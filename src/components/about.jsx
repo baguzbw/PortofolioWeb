@@ -125,7 +125,7 @@ const About = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-plus-jakarta mb-2">Contact</h2>
           <div className="flex flex-col md:flex-row bg-white shadow-md rounded-lg p-6 mt-4">
             <div className="mr-4 mb-4 md:mb-0">
-              <img src={Bagus} alt="Your Name" className="rounded-xl w-64 h-64 mx-auto md:mx-0" loading="eager" />
+              <img src={Bagus} alt="Your Name" className="rounded-xl w-64 h-64 mx-auto md:mx-0" loading="lazy" />
             </div>
             <div className="font-plus-jakarta text-lg">
               <p className="mt-12 font-bold">

@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
 import React from "react";
+import ProDev from "./ProDev";
 import backgroundImage from "./assets/developer.svg";
 import Indo from "./assets/id.svg";
-import Experience from "./Experience";
-import ProDev from "./ProDev";
 
 const Developer = () => {
   return (
     <>
       <motion.section
         className="pt-10 sm:pt-20 md:pt-30 lg:pt-40 bg-white text-center"
+        loading="lazy"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundRepeat: "no-repeat",
@@ -37,7 +37,6 @@ const Developer = () => {
       <div className="p-4 sm:p-6 lg:p-10">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
           <ProDev />
-          <Experience />
         </motion.div>
       </div>
     </>

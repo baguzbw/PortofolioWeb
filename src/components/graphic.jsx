@@ -12,19 +12,19 @@ const Graphic = () => {
         <h1 className=" mt-4 text-xl text-primary font-plus-jakarta">Beberapa hasil Logo & Illustrasi koleksi saya</h1>
       </div>
       <div className="flex flex-col items-center mt-14">
-        <img src={Natal} loading="eager" alt="Hosana Youth Christmas Celebration 2022." className="mb-2  about-cloud-image waterfall w-full h-full rounded-3xl" />
+        <img src={Natal} loading="lazy" alt="Hosana Youth Christmas Celebration 2022." className="mb-2  about-cloud-image waterfall w-full h-full rounded-3xl" />
         <h1 className="font-plus-jakarta text-sm text-[#707072]">Hosana Youth Christmas Celebration 2022.</h1>
       </div>
       <div className="flex flex-col items-center mt-14">
-        <img src={Manut} loading="eager" alt="Hosana Youth Christmas Celebration 2021." className="mb-2 about-cloud-image waterfall w-full h-full rounded-3xl" />
+        <img src={Manut} loading="lazy" alt="Hosana Youth Christmas Celebration 2021." className="mb-2 about-cloud-image waterfall w-full h-full rounded-3xl" />
         <h1 className="font-plus-jakarta text-sm text-[#707072]">Hosana Youth Christmas Celebration 2021.</h1>
       </div>
       <div className="flex flex-col items-center mt-14">
-        <img src={Friday} loading="eager" alt="Good Friday 2022." className=" mb-2 about-cloud-image waterfall w-full h-full rounded-3xl" />
+        <img src={Friday} loading="lazy" alt="Good Friday 2022." className=" mb-2 about-cloud-image waterfall w-full h-full rounded-3xl" />
         <h1 className="font-plus-jakarta text-sm text-[#707072]">Good Friday 2022.</h1>
       </div>
       <div className="flex flex-col items-center mt-14 mb-14">
-        <img src={Ascension} loading="eager" alt="Ascension Day 2022." className=" mb-2 about-cloud-image waterfall w-full h-full rounded-3xl" />
+        <img src={Ascension} loading="lazy" alt="Ascension Day 2022." className=" mb-2 about-cloud-image waterfall w-full h-full rounded-3xl" />
         <h1 className="font-plus-jakarta text-sm text-[#707072]">Ascension Day 2022.</h1>
       </div>
     </div>

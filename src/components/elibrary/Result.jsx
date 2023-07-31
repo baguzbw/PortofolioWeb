@@ -36,7 +36,7 @@ const Result = () => {
                 <img src={DribbbleLogo} loading="eager" alt="PDF Logo" className="mr-2" /> Dribbble
               </button>
             </div>
-            <img src={Presentasi} loading="eager" alt="Project Snapshot" className="about-cloud-image waterfall w-full h-full rounded-xl" />
+            <img src={Presentasi} loading="lazy" alt="Project Snapshot" className="about-cloud-image waterfall w-full h-full rounded-xl" />
             <h1 className="mt-2 font-plus-jakarta text-sm text-[#707072]">Mencari Buku yang tersedia.</h1>
           </div>
         </div>
