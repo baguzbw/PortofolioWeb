@@ -8,7 +8,7 @@ import Presentasi from "../assets/pencarian.gif";
 
 const Result = () => {
   const redirectToBehance = () => {
-    window.open("#", "_blank");
+    window.open("https://www.behance.net/gallery/176725013/E-Library", "_blank");
   };
 
   const redirectToFigma = () => {
@@ -16,7 +16,7 @@ const Result = () => {
   };
 
   const redirectToDribbble = () => {
-    window.open("#", "_blank");
+    window.open("https://dribbble.com/shots/22161889-E-Library", "_blank");
   };
   return (
     <div className="flex flex-col items-center about-cloud-container" style={{ backgroundColor: "#F6F6F6", width: "100vw", maxWidth: "100%", marginTop: "30px" }}>
