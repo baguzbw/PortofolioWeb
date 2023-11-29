@@ -17,7 +17,7 @@ const Kampung = () => {
         <h5 className="font-bold col-span-2 font-plus-jakarta mt-[-22px] text-[#5E5E63]">Project Dummy</h5>
         <div className="order-2 md:order-none col-span-1">
           <p className="font-bold mt-[-14px] font-plus-jakarta text-xl">Project Brief</p>
-          <p className="font-plus-jakarta text-lg">
+          <p className="font-plus-jakarta mt-2 text-lg text-justify ">
             Web e-library dirancang untuk meningkatkan efisiensi dan aksesibilitas perpustakaan sekolah dengan menyediakan sistem peminjaman mandiri dan fitur scan peminjaman. Web ini bertujuan membuat proses peminjaman lebih ramah pengguna
             dan lancar bagi siswa,dan staff dengan harapan meningkatkan efisiensi ke pengguna.
           </p>
@@ -39,7 +39,7 @@ const Kampung = () => {
       </div>
       <div className="bg-white shadow-md p-6 mb-12 mt-8 rounded-lg max-w-xl w-full">
         <h2 className="font-bold text-xl font-plus-jakarta mb-4">Problem</h2>
-        <p className="font-plus-jakarta text-lg">
+        <p className="font-plus-jakarta text-lg text-justify ">
           Tantangan utama adalah bagaimana membuat aplikasi mudah diakses bagi siswa dan staf perpustakaan saat mereka pertama kali menggunakannya, tanpa menyebabkan kebingungan atau hambatan dalam navigasi dan penggunaan.
         </p>
       </div>

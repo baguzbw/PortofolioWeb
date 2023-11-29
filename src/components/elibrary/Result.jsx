@@ -22,7 +22,7 @@ const Result = () => {
     <div className="flex flex-col items-center about-cloud-container" style={{ backgroundColor: "#F6F6F6", width: "100vw", maxWidth: "100%", marginTop: "30px" }}>
       <div className="w-full md:w-1/2 mx-auto mt-10 px-4 md:px-8 lg:px-16">
         <h1 className="text-lg text-primary font-bold font-plus-jakarta text-[#5E5E63] ">Result</h1>
-        <p className="mb-4 mt-3 font-plus-jakarta text-lg">
+        <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify">
           Ini adalah project learning dari mata kuliah Interaksi Manusia & Komputer yang diselesaikan dengan waktu 1 minggu.Dengan Project brief dan semua fitur yang diberikan oleh pengampu.Ini merupakan hasilnya.
         </p>
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
@@ -54,12 +54,12 @@ const Result = () => {
       </div>
       <div className="w-full md:w-1/2 mx-auto px-4 md:px-8 lg:px-16">
         <h1 className="text-lg text-primary font-bold font-plus-jakarta text-[#5E5E63] ">Lesson Learned</h1>
-        <p className="mb-4 mt-3 font-plus-jakarta text-lg">Dengan mendengarkan feedback dari dosen pengampu mata kuliah, maka saya simpulkan pelajaran yang saya ambil dalam project based learning E-Library ini.</p>
-        <p className="mb-4 mt-3 font-plus-jakarta text-lg">
+        <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify">Dengan mendengarkan feedback dari dosen pengampu mata kuliah, maka saya simpulkan pelajaran yang saya ambil dalam project based learning E-Library ini.</p>
+        <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify">
           <b>Figma is good for daily use.</b>Ini adalah project pertama saya menggunakan software figma yang saya bilang cukup bagus. Karena dibeberapa software seperti photoshop,ilustrator yang sebelumnya saya pakai,desain interface sangat
           bagus dan ringan berbeda dengan dua software sebelumnya.Meskipun Figma lebih terkenal digunakan design web saya rasa figma bisa menjadi daily use saya untuk design
         </p>
-        <p className="mb-8 mt-3 font-plus-jakarta text-lg">
+        <p className="mb-8 mt-3 font-plus-jakarta text-lg text-justify">
           <b>Pentingnya Project Brief yang Rinci.</b> Dari pengalaman mengerjakan proyek ini, saya menyadari pentingnya memiliki project brief yang rinci dan jelas sebelum memulai desain aplikasi. Project brief yang lengkap akan membantu
           memahami dengan tepat tujuan, ruang lingkup, dan persyaratan proyek.Pada project ini saya mengira ini adalah sistem peminjaman/pengembalian saja namun saat saya mempresentasikan dosen memberikan kritik karena tidak adanya sistem
           yang jelas mengenai presensi pada saat masuk perpustakan.Ini merupakan pelajaran berharga bagi saya untuk tanya terlebih dahulu hal-hal project brief secara rinci sebelum pengerjaan project.

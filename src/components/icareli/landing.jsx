@@ -15,11 +15,11 @@ const Kampung = () => {
       </div>
       <div className="mt-[-110px] flex flex-col md:grid md:grid-cols-2 gap-8 max-w-3xl mx-auto relative">
         <img src={Logo} alt="Company Logo" className="w-18 h-8 mb-[-14px]" />
-        <h1 className="font-bold text-4xl col-span-2 font-plus-jakarta ">International Conferences on Animal Research for Eco-Friendly Livestock Industry</h1>
+        <h1 className="font-bold text-4xl col-span-2 font-plus-jakarta text-justify ">International Conferences on Animal Research for Eco-Friendly Livestock Industry</h1>
         <h5 className="font-bold col-span-2 font-plus-jakarta mt-[-22px] text-[#5E5E63]">Universitas Sebelas Maret</h5>
         <div className="order-2 md:order-none col-span-1">
-          <p className="font-bold mt-[-14px] font-plus-jakarta text-xl">Project Brief</p>
-          <p className="font-plus-jakarta text-lg">
+          <p className="font-bold mt-[-16px] font-plus-jakarta text-xl">Project Brief</p>
+          <p className="font-plus-jakarta mt-2 text-lg text-justify">
             ICARELI adalah konferensi yang diadakan di Fakultas Pertanian Universitas Sebelas Maret setiap dua tahun sekali dan mengundang pembicara dari berbagai negara.Seluruh informasi tentang acara yang dilakukan selama pertemuan dan
             setelah pertemuan akan ditampilkan di situs web ini.
           </p>
@@ -43,7 +43,7 @@ const Kampung = () => {
       </div>
       <div className="bg-white shadow-md p-6 mb-12 mt-8 rounded-lg max-w-xl w-full">
         <h2 className="font-bold text-xl font-plus-jakarta mb-4">Problem</h2>
-        <p className="font-plus-jakarta text-lg">Sebelum ini, website ICARELI kurang efektif karena menggabungkan dua website dalam satu website, yang dapat menyebabkan penyimpanan data yang besar.</p>
+        <p className="font-plus-jakarta text-lg text-justify">Sebelum ini, website ICARELI kurang efektif karena menggabungkan dua website dalam satu website, yang dapat menyebabkan penyimpanan data yang besar.</p>
       </div>
     </div>
   );
