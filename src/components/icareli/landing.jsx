@@ -1,11 +1,11 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import Landing from "../assets/Icareli1.png";
 import Logo from "../assets/IcareliUNS.svg";
 import LaravelLogo from "../assets/Laravel.svg";
 import Mysql from "../assets/Mysql.svg";
 import ReactLogo from "../assets/React.svg";
-import Landing from "../assets/Icareli1.png";
 
 const Kampung = () => {
   return (
@@ -20,8 +20,8 @@ const Kampung = () => {
         <div className="order-2 md:order-none col-span-1">
           <p className="font-bold mt-[-14px] font-plus-jakarta text-xl">Project Brief</p>
           <p className="font-plus-jakarta text-lg">
-            Proyek Kampung Batik adalah platform berbasis web yang dirancang untuk mempromosikan dan melestarikan warisan budaya dan keterampilan Batik dari Kampung Batik Joglo Bale Agung Cendana. Situs web ini tidak hanya akan menampilkan
-            produk Batik yang indah, tetapi juga akan menyoroti motif khas dan sajian kuliner lokal daerah tersebut.
+            ICARELI adalah konferensi yang diadakan di Fakultas Pertanian Universitas Sebelas Maret setiap dua tahun sekali dan mengundang pembicara dari berbagai negara.Seluruh informasi tentang acara yang dilakukan selama pertemuan dan
+            setelah pertemuan akan ditampilkan di situs web ini.
           </p>
         </div>
         <div className="order-1 md:order-none col-span-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 font-plus-jakarta ms-8 me-4">
@@ -43,9 +43,7 @@ const Kampung = () => {
       </div>
       <div className="bg-white shadow-md p-6 mb-12 mt-8 rounded-lg max-w-xl w-full">
         <h2 className="font-bold text-xl font-plus-jakarta mb-4">Problem</h2>
-        <p className="font-plus-jakarta text-lg">
-          Kampung Batik Joglo Bale Agung Cendana masih kurang dikenal luas karena tidak memiliki situs web. Hal ini berdampak pada kredibilitas dan penyebaran informasi tentang nilai budaya serta produk batik unik yang dimilikinya.
-        </p>
+        <p className="font-plus-jakarta text-lg">Sebelum ini, website ICARELI kurang efektif karena menggabungkan dua website dalam satu website, yang dapat menyebabkan penyimpanan data yang besar.</p>
       </div>
     </div>
   );
