@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Features from "../components/icareli/Features";
 import Landing from "../components/icareli/landing";
 
 export default class ELibrary extends Component {
@@ -6,6 +7,7 @@ export default class ELibrary extends Component {
     return (
       <div>
         <Landing />
+        <Features />
       </div>
     );
   }
