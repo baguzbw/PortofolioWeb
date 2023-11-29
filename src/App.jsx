@@ -8,6 +8,7 @@ import About from "./components/about";
 import Graphic from "./components/graphic";
 import ELibrary from "./pages/ELibrary";
 import Kampung from "./pages/KampungPage";
+import Icareli from "./pages/Icareli";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/designer" element={<Designer />} />
         <Route path="/about" element={<About />} />
         <Route path="/kampung" element={<Kampung />} />
+        <Route path="/icareli" element={<Icareli />} />
         <Route path="/elibrary" element={<ELibrary />} />
         <Route path="/graphic" element={<Graphic />} />
         <Route path="/" element={<Navigate to="/developer" />} />
