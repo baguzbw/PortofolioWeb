@@ -23,8 +23,8 @@ const Result = () => {
       <div className="w-full md:w-1/2 mx-auto mt-10 px-4 md:px-8 lg:px-16">
         <h1 className="text-lg text-primary font-bold font-plus-jakarta text-[#5E5E63] ">Result</h1>
         <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify ">
-          Setelah bekerja sama dengan team, menyelesaikan semua fitur dan request fitur dari dosen pembimbing dan juga pihak Joglo Bale Agung Cendana akhirnya project ini dapat selesai secara tepat waktu dari yang ditentukan, project ini
-          merupakan rangkaian semester 4 yaitu Project Based Learning yang kita dapat dari Life Media.
+          Setelah bekerja sama dengan tim dalam waktu yang singkat, hanya satu bulan, dan menyelesaikan revisi yang dilakukan oleh Fakultas Pertanian Universitas Sebelas Maret, proyek website ICARELI akhirnya selesai dengan cepat dan siap
+          untuk dipakai pada konferensi kedua ICARELI.
         </p>
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
           <div className="flex flex-col items-center">
@@ -56,15 +56,15 @@ const Result = () => {
       <div className="w-full md:w-1/2 mx-auto px-4 md:px-8 lg:px-16">
         <h1 className="text-lg text-primary font-bold font-plus-jakarta text-[#5E5E63] ">Lesson Learned</h1>
         <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify ">
-          Dengan mendengarkan pihak kampung batik dan dosen pembimbing. Kami mendapat berbagai macam pelajaran dan pengalaman berharga yang diambil agar dapat diterapkan kedalam project-project kedepan.
+          Setelah menyelesaikan project website ICARELI,kami mendapat berbagai macam pelajaran dan pengalaman berharga yang dapat diambil agar bisa mematangkan ilmu dan bisa diterapkan langsung untuk project berskala besar lainnya.
         </p>
         <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify ">
-          <b>Pentingnya Perencanaan dan Manajemen Proyek.</b> Ini adalah project team dengan skala yang besar pertama saya dan pada ada awal memulai saya ingin langsung terjun tanpa merencanakan secara menyeluruh seperti pentingnya tujuan
-          proyek dibuat, tenggat waktu, persyaratan, kebutuhan database, dan penyelesaian masalah dengan komunikasi. Jika langsung dikerjakan tanpa perencanaan tadi maka pekerjaan saya mungkin tidak selesai tepat waktu.
+          <b>Penggunaan React Context.</b> Ini adalah project pertama saya yang menggunakan react context dan awalnya cukup rumit untuk memahami alur aplikasi.React Context lebih cocok digunakan pada web berskala besar untuk lebih mudah
+          dipelihara.Pada project ini saya juga lebih tau mana project yang harus menggunakan React Context dan React Props.
         </p>
         <p className="mb-8 mt-3 font-plus-jakarta text-lg text-justify ">
-          <b>Mendengarkan Feedback itu penting tapi filtering juga perlu.</b> Dalam project ini kami setiap hari berdiskusi dengan dosen terkait progress website dan mendapat feedback dari dosen. Terkadang Feedback tidak harus semua kita
-          jalankan jika tidak sejalan tujuan awal pembuatan website. Karena jika ada tambahan fitur maka perencanaan yang sudah kita buat harus ditambahkan dan merubah timeline jika ini terjadi terus menerus maka project menjadi selesai.
+          <b>Research sedikit lebih baik daripada tidak research sama sekali.</b> Dengan waktu deadline yang cukup singkat pada awalnya kita tidak melakukan research sama sekali dan langsung membuat rancangan dan setelah itu design namun
+          hal itu tidak berjalan baik karena ditengah kita mengalami kebingungan.Tanpa menggunakan research mungkin saya masih menggunakan React Props dan masih kebingungan ditengah pengerjaannya.
         </p>
       </div>
     </div>
