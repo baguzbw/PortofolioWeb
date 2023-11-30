@@ -3,20 +3,20 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import GithubLogo from "../assets/Github.svg";
 import PDFLogo from "../assets/PDF.svg";
-import WebsiteLogo from "../assets/Website.svg";
+import WebsiteLogo from "../assets/globe.svg";
 import Hasil from "../assets/hasil.png";
 
 const Result = () => {
   const redirectToGithub = () => {
-    window.open("https://github.com/baguzbw/pblkampungbatik", "_blank");
+    window.open("https://github.com/baguzbw/IcareliProject", "_blank");
   };
 
   const redirectToWebsite = () => {
-    window.open("https://joglobaleagungcendana.id/", "_blank");
+    window.open("https://icareli.id/", "_blank");
   };
 
   const redirectToDocument = () => {
-    window.open("https://drive.google.com/file/d/199lR6tQdbHx_6GREiKOnoXW1VtIdV2vP/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1xdqCG-l8HH4FsJKgDrpWXzgI_YIObRaE/view?usp=sharing", "_blank");
   };
   return (
     <div className="flex flex-col items-center about-cloud-container" style={{ backgroundColor: "#F6F6F6", width: "100vw", maxWidth: "100%", marginTop: "30px" }}>
