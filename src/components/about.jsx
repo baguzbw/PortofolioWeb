@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <section className="mb-8 mt-20 lg:mt-24">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-plus-jakarta mb-2">About Me</h2>
-          <p className="font-plus-jakarta text-lg">
+          <p className="font-plus-jakarta text-lg text-justify">
             Hi saya Bagus! Sekarang saya sedang berkuliah di Universitas Sebelas Maret jurusan Teknik Informatika.Saya memiliki ketertarikan dengan programming juga teknologi didalamnya,dan saya juga memiliki hobi mendesign sebagai melepas
             penat dari programming.
           </p>
@@ -42,9 +42,9 @@ const About = () => {
         <section className="mb-8">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold font-plus-jakarta mb-2">Experience</h2>
           <p className="font-plus-jakarta text-lg mt-4">
-            <span>Januari 2023 - July 2023</span>
+            <span>Januari 2023 - December 2023</span>
             <br />
-            <span className="font-semibold text-[#2562ff]">PROJECT BASED LEARNING INTERNSHIP - PT.SIMS Life Media </span>
+            <span className="font-semibold text-[#2562ff]">INTERNSHIP - PT.SIMS Life Media </span>
             <br />
             <span>Front End Developer</span>
           </p>
