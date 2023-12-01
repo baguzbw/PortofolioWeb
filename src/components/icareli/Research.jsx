@@ -10,12 +10,12 @@ const Research = () => {
       <div className="w-full md:w-1/2 mx-auto px-4 md:px-8 lg:px-16">
         <h1 className="text-lg text-primary font-bold font-plus-jakarta text-[#5E5E63] ">Research</h1>
         <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify">
-          Dalam Project ini saya sebagai Front End Developer dihadapkan dengan framework React js yang baru saya pelajari belakangan ini karena sebelumnya saya lebih familiar menggunakan laravel yang mostly php. Pada Project ini saya
-          melakukan research terlebih dahulu tentang React js.
+          Dalam Project yang memiliki waktu pengerjaan selama 1 bulan ini saya sebagai Front End Developer pada awalnya saya hanya memiliki masalah untuk menyelesaikan project ini sesuai waktu yang diberikan namun setelah berdiskusi dengan
+          team fakultas pertanian saya memiliki tambahan masalah yaitu mengatasi multiple data dalam satu website.
         </p>
         <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify">
-          Research yang saya dapat adalah react js merupakan framework dari Javascript yang dikembangkan oleh Facebook dan dipakai juga dalam aplikasinya. Perbedaan yang saya alami dari laravel adalah struktur aplikasi didalamnya. Dalam
-          Laravel struktur aplikasinya sangat terstuktur namun dalam react js saya harus menata sendiri
+          Pada awal project website didesign untuk hanya memiliki satu data yaitu seluruh data yang berkaitan conference 2023.Setelah pengerjaan selesai,team dari fakultas pertanian Universitas Sebelas Maret menambahkan jika conference
+          sebelumnya yaitu 2021 ingin juga ditambahkan ke dalam website tanpa merubah design hanya merubah data yang harus ditampilkan.
         </p>
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
           <div className="flex flex-col items-center">
@@ -26,20 +26,16 @@ const Research = () => {
       </div>
       <div className="w-full md:w-1/2 mx-auto px-4 md:px-8 lg:px-16">
         <p className="mb-4 font-plus-jakarta text-lg text-justify">
-          Di Project ini saya juga bersama dengan UI/UX Design melakukan research untuk design pada kampung batik Joglo Bale Agung Cendana ini. Research tertuju pada 2 website yaitu kampoengbatiklaweyan.org dan batikgiriloyo.co.id.
+          Setelah saya melakukan research,saya akhirnya menggunakan React Context untuk pertama kalinya.React Context memiliki kelebihan untuk mengakses data yang sama tanpa perantara serta memberikan kemudahan untuk mengelola state secara
+          lebih efisien.
         </p>
         <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify">
-          Pada website kampoengbatiklaweyan.org terdapat banyak sekali menu pada navbar yang membuat saya pengunjung kurang nyaman dan bingungtentang informasi yang disampaikan pada website kampoengbatiklaweyan.org
-        </p>
-        <p className="mb-4 mt-3 font-plus-jakarta text-lg text-justify">
-          Selanjutnya pada website batikgiriloyo.co.id,design tampilan antarmuka yang dibuat menurut saya belum eye catching.Dengan pemilihan warna yang terkesan tidak modern.Terdapat ilustrasi yang sama disetiap fitur membuat kesan
-          repetitif dan kurang menarik.
+          Sebelumnya saya memakai React Props karena saya hanya memiliki ilmu tentang React Props serta cara penggunaannya yang layaknya hierarkis.Hierarkis yang saya maksud adalah seperti estafet dari satu komponen ke komponen lainnya.
         </p>
         <div className="bg-white shadow-md ms-6 mt-2 p-6 rounded-lg max-w-xl w-full">
           <h2 className="font-bold text-xl font-plus-jakarta mb-4">Research</h2>
           <p className="font-plus-jakarta text-lg text-justify ">
-            Setelah melakukan Research pada dua situs web sebelumnya, kami menyimpulkan untuk menciptakan desain yang modern, penting untuk memperhatikan pemilihan font dan warna yang mudah dibaca. Selain itu, pengelompokan menu pada Navbar
-            juga sangat penting.
+            Kesimpulan dari Research ini yaitu React Context sangat berguna jika project yang dibuat adalah project berskala besar namun jika project hanya berskala kecil penggunaannya lumayan ribet.
           </p>
         </div>
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mb-14">
